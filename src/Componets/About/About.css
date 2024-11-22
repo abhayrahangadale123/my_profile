@@ -1,0 +1,105 @@
+.about{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    flex-direction: column;
+    gap:80px;
+    width:85%;
+    margin:80px 170px;
+    /* background-color: red; */
+    
+}
+#about_tittle h1{
+    font-size:3vw;
+    background: linear-gradient(267deg,#B923E1 0.36%,#fff);
+    background-clip:text;
+    -webkit-background-clip:text;
+     -webkit-text-fill-color:transparent;
+    
+}
+.about_sections{
+    display: flex;
+    
+    gap: 80px;
+}
+.about_sections .about_left img{
+    width:400px;
+    height:400px;
+    border-radius:5%;
+}
+.about_right{
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+.about_para{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    width:100%;
+    line-height:23px;
+}
+.about_skills{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.about_skill{
+    display: flex;  
+    align-items: center;
+    transition:0.3s;
+}
+.about_skill p{
+    min-width:150px;
+    font-size:20px;
+    font-family: 400;
+}
+.about_skill hr{
+    outline: none;
+    border:none;
+    width:50%;
+    height: 8px;
+    border-radius: 50px;
+    background: linear-gradient(264deg,#DF8909 -5.09%,#B415FF);
+}
+.about_achivments{
+    display: flex;
+    width:100%;
+    justify-content: space-around;
+    margin-bottom:20px;
+}
+.about_achiv{   
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap:10px;
+    transition: 0.5s;
+}
+.about_achiv h1{
+   font-size:60px;
+   font-weight: 600;
+   background: linear-gradient(267deg,#DA7C25 0.36%,#B923E1);
+   background-clip:text;
+   -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;
+}
+.about_achiv p{
+    font-size: 15px;
+    font-weight: 500;
+    
+}
+.about_skill:hover{
+    transform: scale(1.05);
+    transition: .3s;
+    cursor: pointer;
+}
+.about_achiv:hover{
+    transform: scale(1.12);
+    transition: .3s;
+    cursor: pointer;
+}
+ 
+@media (max-width: 768px) {
+
+    
+}

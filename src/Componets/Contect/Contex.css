@@ -1,0 +1,120 @@
+/* Contex.css */
+
+.contect {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin:40px 170px;
+}
+
+.contect_tittle {
+    
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.contect_tittle h1 {
+    font-size:3vw;
+    color: #fff;
+    font-weight: 700;
+    background: linear-gradient(267deg,#B923E1 0.36%,#DA7C25);
+    background-clip:text;
+    -webkit-background-clip:text;
+     -webkit-text-fill-color:transparent;
+}
+
+.contect_sections {
+    display: flex;
+    gap: 150px;
+    
+   
+}
+
+.contect_left {
+    display: flex;
+    flex-direction: column;
+    gap:30px;
+}
+
+.contect_left h1 {
+    font-size: 4rem;
+    color: #fff;
+    margin-bottom: 1rem;
+    background: linear-gradient(267deg,#DA7C25 0.36%,#B923E1);
+    background-clip:text;
+    -webkit-background-clip:text;
+     -webkit-text-fill-color:transparent;
+}
+.contect_left p {
+    max-width: 550px;
+    color:#D8D8D8;
+    font-size: 18px;
+    line-height:30px;
+}
+.contect_details{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    color:#D8D8D8;
+    font-size: 20px;
+}
+.contect_detail{
+   display: flex;
+   align-items: center;
+   gap:15px;
+}
+
+.contect_right{
+  display: flex;
+  flex-direction: column;
+  align-items:start;
+  gap:20px;  
+  
+}
+.contect_right label{
+    color:#D8D8D8;
+    font-size: 20px;
+    font-weight: 500;
+}
+.contect_right input{
+    border: none;
+    width: 600px;
+    height: 38px;
+    padding-left: 20px;
+    border-radius: 4px;
+    background: #32323c;
+    color: #A0A0A0;
+    
+    font-size: 20px;
+}
+.contect_right textarea {
+    width: 600px;
+    border: none;
+    padding:10px;
+    background: #32323c;
+    color: #A0A0A0;
+    font-size: 20px;
+    
+}
+.Contect_submit{
+    border: none;
+    color: white;
+    font-size: 20px;
+    border-radius:25px;
+    padding:5px 15px;
+    background:linear-gradient(264deg,#DA7C25 -5.09%,#B415ff 106.28%);
+    cursor: pointer;
+    margin-bottom:50px;
+    transition: 0.3s;
+}
+
+.Contect_submit:hover{
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+
+
+
+ 

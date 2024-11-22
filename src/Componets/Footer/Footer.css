@@ -1,0 +1,130 @@
+/* .footer{
+    display: flex;   
+    gap: 80px;
+    margin:80px 170px;
+}
+.footer_right {
+    display: flex;
+    gap: 30px;
+}
+.footer_right input{
+    border: none;
+    width: 400px;
+    height: 58px;
+    padding-left: 20px;
+    border-radius: 4px;
+    background: #32323c;
+    color: #A0A0A0;
+    
+    font-size: 20px;
+}
+.footer_right button{
+    padding:0px 60px;
+    border-radius: 50px;
+    background: linear-gradient(267deg,#DA7C25 0.36%,#B923E1);
+    font-size: 15px;
+    cursor: pointer;
+    border: 2px solid transparent;
+ 
+    
+} */
+.footer {
+    display: flex;
+    gap: 5rem; /* Responsive spacing using rem */
+    margin: 5rem 10rem; /* Responsive margin */
+    flex-wrap: wrap; /* Wrap items on smaller screens */
+}
+
+.footer_left {
+    flex: 1;
+}
+
+.footer_right {
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+    flex: 1;
+    margin-bottom: -40px;
+}
+
+.footer_inp {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem; /* Gap between icon and input */
+}
+
+ 
+
+.footer_right input {
+    border: none;
+    width:350px; /* Full width input for responsiveness */
+    /* max-width:800px; */
+    height:38px;
+    padding-left: 20px;
+    border-radius: 4px;
+    background: #32323c;
+    color: #A0A0A0;
+    font-size: 15px;
+    transition: all 0.3s ease; /* Smooth transition for hover and focus */
+}
+
+.footer_right input:focus {
+    outline: 2px solid #DA7C25; /* Border on focus */
+    color: #FFF;
+}
+
+.footer_right input::placeholder {
+    color: #A0A0A0; /* Placeholder color */
+    opacity: 0.8;
+}
+
+.footer_right button {
+    padding: 0.5rem 2rem;
+    border-radius: 50px;
+    background: linear-gradient(267deg, #DA7C25 0.36%, #B923E1);
+    font-size: 15px;
+    cursor: pointer;
+    border: 2px solid transparent;
+    transition: all 0.3s ease; /* Smooth transition */
+}
+
+.footer_right button:hover {
+    background: linear-gradient(267deg, #B923E1 0.36%, #DA7C25);
+    transform: scale(1.05);
+}
+
+.footer_bottom {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 0;
+   
+    font-size: 0.9rem;
+    color: #615f5f;
+    width: 100%;
+    flex-wrap: wrap; /* Wrap items on smaller screens */
+}
+
+.footer_service p {
+    margin: 0 1rem;
+    cursor: pointer;
+}
+.foooter_bootem {
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    width:80%;
+    margin: auto;
+    color: #a6a5a5;
+}
+.footer_service{
+    color: #a6a5a5;
+    display: flex;
+}
+.logo h1 {
+     
+    color:red;  
+}
+.logo span{
+   color: #fff;
+}
+ 

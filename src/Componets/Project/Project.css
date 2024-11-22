@@ -1,0 +1,157 @@
+/* .project{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    flex-direction: column;
+    gap:80px;
+    width:85%;
+    margin:60px 170px;
+}
+
+
+.project_tittle h1{
+    font-size:3vw;
+    background: linear-gradient(267deg,#B923E1 0.36%,#fff);
+    background-clip:text;
+    -webkit-background-clip:text;
+     -webkit-text-fill-color:transparent;
+}
+.project_formet{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    gap:20px;
+    border-radius:10px;
+    border: 2px solid #fff;
+    transition: 0.4s;
+    cursor: pointer;
+}
+.card{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 40px;
+    margin-bottom: 80px;
+}
+.project_formet h3{
+    font-size: 28px;
+    font-weight: 600;
+}
+.project_formet h2{
+    font-size:38px;
+    font-weight: 800;
+    background: linear-gradient(267deg,#DF8909 50%,#B923E1);
+    background-clip:text;
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;
+} */
+ /* Main Container */
+.project {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 80px;
+    width: 85%;
+    margin: 60px auto; /* Centering horizontally */
+    padding: 20px; /* Adds some padding for spacing */
+    box-sizing: border-box;
+}
+
+/* Title Styling */
+.project_tittle h1 {
+    font-size: clamp(24px, 3vw, 48px); /* Responsive font size */
+    background: linear-gradient(267deg, #B923E1 0.36%, #DF8909 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center; /* Centers the title */
+    margin-bottom: 20px;
+    transition: color 0.3s ease;
+}
+ 
+
+/* Card Container */
+.card {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; /* Responsive columns */
+    gap: 40px;
+    margin-bottom: 80px;
+}
+
+/* Individual Project Format */
+.project_formet {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    border-radius: 10px;
+    border: 2px solid #fff;
+    padding: 20px;
+    transition: transform 0.4s ease, box-shadow 0.4s ease, border-color 0.4s ease;
+    cursor: pointer;
+    background-color: #1a1a1a;
+}
+
+.project_formet:hover {
+    transform: translateY(-8px); /* Lifts the card on hover */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    border-color: #ff00ff; /* Matches gradient color */
+    background-image:linear-gradient(45deg,#3f0028,#582300);
+}
+
+/* Project Number */
+.project_formet h3 {
+    font-size: 28px;
+    font-weight: 600;
+     
+}
+
+/* Project Name with Gradient Text */
+.project_formet h2 {
+    font-size: 38px;
+    font-weight: 800;
+    align-items: center;
+    background: linear-gradient(267deg, #DF8909 50%, #B923E1);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: background 0.3s ease;
+}
+.project_formet p{
+    line-height:30px;
+}
+
+/* Link Styling */
+.links a {
+    font-weight: bold;
+    /* color: #DF8909; */
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.links a:hover {
+    color: #B923E1; /* Color changes on hover */
+}
+
+/* Responsive Adjustments */
+@media (max-width: 1024px) {
+    .project {
+        width: 90%;
+        margin: 40px auto;
+    }
+    
+    .project_formet h2 {
+        font-size: 32px;
+    }
+}
+
+@media (max-width: 768px) {
+    .project_formet h3 {
+        font-size: 22px;
+    }
+
+    .project_formet h2 {
+        font-size: 28px;
+    }
+}

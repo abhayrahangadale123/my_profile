@@ -1,0 +1,204 @@
+/* .hero{
+   display: flex;
+   align-items: center;
+   flex-direction: column ;
+   gap:15px;
+  
+}
+
+.hero img{
+    width:250px;
+    height:250px;
+    border-radius: 50%;
+   margin-top:130px;
+}
+.hero h1{
+text-align: center;
+width: 60%;
+font-size:65px;
+font-weight: 600;
+}
+.hero h1 span {
+    background: linear-gradient(267deg,#DA7C25 0.36%,#B923E1);
+    background-clip:text;
+    -webkit-background-clip:text;
+     -webkit-text-fill-color:transparent;
+}
+.hero p {
+    width: 50%;
+    text-align:center;
+    font-size:24px;
+    line-height:40px;
+}
+.hero_rection{
+    display: flex;
+    gap:25px;
+    text-align: center;
+    font-size: 24px;
+    font-weight:500;
+    margin-bottom:50px;
+    
+}
+#hero_contect{
+    padding: 15px 20px;
+    border-radius: 50px;
+    background: linear-gradient(267deg,#DA7C25 0.36%,#B923E1);
+    font-size: 15px;
+    cursor: pointer;
+    border: 2px solid transparent;
+}
+#hero_resume{
+    padding: 15px 20px;
+    border-radius: 50px;
+    font-size: 15px;
+    border: 2px solid white;
+    cursor: pointer;
+}
+#hero_contect:hover{
+    border: 2px solid white;
+}
+#hero_resume:hover{
+    border-color:#B415FF;
+} */
+/* @media(max-width:768px){
+    
+    .hero img{
+        margin-top:150px;
+        width: 260px;
+        margin-left:350px;
+    }
+    .hero h1{
+        margin-top:50px;
+        width:100%;
+        font-size:35px;
+        margin-left:250px;
+    }
+    .hero p{
+        width: 100%;
+        font-size:18px;
+        line-height:32px;
+        margin: 10px 0px;
+        margin-left:350px;
+    }
+    .hero_rection{
+        width:100%;
+        margin-left:350px;
+    }
+
+} */
+
+
+.hero {
+    display: flex;
+    align-items: center; /* Center items vertically */
+    justify-content: center; /* Center items horizontally */
+    flex-direction: column;
+    gap: 15px;
+    text-align: center; /* Center text within the flex container */
+    padding: 20px; /* Add some padding for better spacing */
+}
+
+.hero img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    margin-top: 130px;
+}
+
+.hero h1 {
+    width: 60%;
+    font-size: 65px;
+    font-weight: 600;
+}
+
+.hero h1 span {
+    background: linear-gradient(267deg, #DA7C25 0.36%, #B923E1);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.hero p {
+    width: 50%;
+    font-size: 24px;
+    line-height: 40px;
+}
+
+.hero_rection {
+    display: flex;
+    gap: 25px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 50px;
+}
+
+#hero_contect,
+#hero_resume {
+    padding: 15px 20px;
+    border-radius: 50px;
+    font-size: 15px;
+    cursor: pointer;
+    border: 2px solid transparent;
+}
+
+#hero_contect {
+    background: linear-gradient(267deg, #DA7C25 0.36%, #B923E1);
+}
+
+#hero_resume {
+    border: 2px solid white;
+}
+
+#hero_contect:hover {
+    border: 2px solid white;
+}
+
+#hero_resume:hover {
+    border-color: #B415FF;
+}
+
+/* Media Queries for Mobile Responsiveness */
+@media (max-width: 768px) {
+    .hero{
+         /* background-color: red; */
+        margin-top: 150px;
+        margin-right:-320px;
+        padding: 10px 20px;
+        overflow-x: hidden;
+        gap:30px;
+    }
+    .hero img {
+        margin-top: 120px; /* Adjusted for better spacing */
+        width: 350px; /* Slightly smaller image */
+        height: 350px; /* Maintain aspect ratio */
+    }
+
+    .hero h1 {
+        margin-top:30px; /* Reduced margin */
+        width: 90%; /* Increased width for smaller screens */
+        font-size:50px; /* Smaller font size */
+    }
+
+    .hero p {
+        width: 90%; /* Increased width for smaller screens */
+        font-size:24px; /* Smaller font size */
+        line-height: 28px; /* Adjusted line height */
+        margin: 10px 0; /* Adjusted margin */
+    }
+
+    .hero_rection {
+        flex-direction: column; /* Stack buttons vertically */
+        width: 100%; /* Full width */
+        margin-left: 0; /* Remove left margin */
+        margin-top: 5px
+    }
+
+    #hero_contect,
+    #hero_resume {
+        width: 100%; /* Full width buttons */
+        margin: 5px 15px; /* Spacing between buttons */
+        font-size: 25px;
+    }
+}
+ 
