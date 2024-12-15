@@ -125,7 +125,7 @@
 .links a {
     font-weight: bold;
     /* color: #DF8909; */
-    color: #fff;
+    color: blue;
     text-decoration: none;
     transition: color 0.3s ease;
 }

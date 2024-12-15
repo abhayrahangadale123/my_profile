@@ -25,6 +25,7 @@ const Contex = () => {
     
         if (res.success) {
           alert(res.message);
+          event.target.reset();
         }
       };
     

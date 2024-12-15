@@ -18,7 +18,8 @@ const Project = () => {
                                     <h2>{project.S_Name}</h2>
                                     <p>{project.S_desc}</p>
                                     <div className="links">
-                                        <a href={project.link} target="_blank" rel="noopener noreferrer">Read more ➡️</a>
+                                        <a href={project.link} target="_blank" rel="noopener noreferrer">Link </a>
+                                    
                                     </div>
                                 </div>
                             ))

@@ -1,5 +1,5 @@
 import React from 'react'
-import my from "../../assets/my_pic.jpg"
+import my from "../../assets/image.png"
 import "./About.css"
 const About = () => {
     return (
@@ -9,20 +9,22 @@ const About = () => {
                     <h1>About me</h1>
                 </div>
                 <div className="about_sections">
-                    <div className="about_left">
+                    <div className="about_left " >
                         <img src={my} alt="" />
                     </div>
                     <div className="about_right">
                         <div className="about_para">
-
-                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nihil, fugiat  Lorem ipsum dolor sit amet consectetur adipisicing elit.  officiis incidunt tempora magni ratione. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, eveniet.</p>
-                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Blanditiis, vero! Lorem,  Magni, dolores expedita modi officiis facilis ducimus?</p>
+                            <p>i am a passionate and skilled MERN stack developer with a strong foundation in both front-end and back-end technologies. As a final-year Computer Science student, he has honed his expertise in React.js, Node.js, Express, and MongoDB, creating dynamic and user-friendly web applications. And commitment to excellence is reflected in his ability to build responsive designs using HTML, CSS, and Tailwind CSS, while ensuring seamless functionality with robust JavaScript logic.</p>
+                             <p>As a final-year Computer Science student, I have developed projects like a <span>CourseBazaar </span> and <span> BookMyShow clone </span> </p>
                         </div>
                         <div className="about_skills">
                             <div className="about_skill"><p>HTML & css </p><hr style={{ width: "50%" }} /></div>
-                            <div className="about_skill"><p>React Js</p><hr style={{ width: "60%" }} /></div>
                             <div className="about_skill"><p> JavaScript </p><hr style={{ width: "70%" }} /></div>
-                            <div className="about_skill"><p> Node Js </p><hr style={{ width: "40%" }} /></div>
+                            <div className="about_skill"><p>React.Js</p><hr style={{ width: "60%" }} /></div>
+                            <div className="about_skill"><p> Node.js </p><hr style={{ width: "40%" }} /></div>
+                            <div className="about_skill"><p>Express.js</p><hr style={{ width: "60%" }} /></div>
+                            <div className="about_skill"><p> Mongoose </p><hr style={{ width: "70%" }} /></div>
+                           
                         </div>
                     </div>
                 </div>

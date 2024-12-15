@@ -38,6 +38,10 @@
     gap:20px;
     width:100%;
     line-height:23px;
+    margin-top:-40px;
+}
+.about_para span{
+    color: red;
 }
 .about_skills{
     display: flex;
